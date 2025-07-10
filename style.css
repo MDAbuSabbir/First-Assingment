@@ -16,6 +16,15 @@
     border:#4E47FF;
     border-radius: 8px;
     background-color: #4E47FF;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.btn-style:hover{
+    
+    color: #4E47FF;
+    border: 2px solid #4E47FF;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 700;
 }
 .header_color{
     color: #252432;
@@ -173,3 +182,60 @@ main{
     color: #B3B3B3;
 }
 
+
+/* Newsletter section design starts form here */
+
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+.newsletter-title h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+}
+.contact-form{
+    font-family: "Inter", sans-serif;
+}
+.contact-form label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact-form input,.contact-form textarea{
+    display: block;
+    width: 500px;
+    margin: 15px 0 25px 0;
+    background-color: #f5f4f4;
+    border: none;
+    padding: 20px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400; 
+    
+}
+.form-submit{
+    width: 565px !important;;
+    color: white !important; 
+    font-family: "Raleway", sans-serif !important;
+    font-size: 16px !important;
+    padding: 12px 36px !important;
+    border:1px solid #4E47FF !important;
+    border-radius: 8px !important;
+    background-color: #4E47FF !important;
+    cursor: pointer !important;
+    transition: 0.7s;
+}
+.form-submit:hover{
+    color: #4E47FF !important;
+    border: 2px solid #4E47FF !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    font-weight: 700 !important;
+}
