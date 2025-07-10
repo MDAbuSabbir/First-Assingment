@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 /* Shared styles are here */
 .btn-style{
     color: white;
@@ -119,4 +121,55 @@ main{
 }
 
 
+/* User Opinion Section Designs From Here */
+.user-Opinion{
+    margin: 130px 0px;
+    font-family: "Raleway", sans-serif;
+}
+.user-Opinion-title{
+   font-size: 42px;
+   font-weight: 700;
+   margin-bottom: 50px;
+   text-align: center;
+}
+.user-opinion-container{
+    display: flex;
+    gap: 25px;
+
+}
+.user-opinions{
+    background-color: rgb(250, 250, 250);
+    padding: 28px;
+    border: 1px solid #F2EDED;
+    border-radius: 10px;
+}
+.user-opinions h3{
+    color: #1E1E1E;
+    font-size: 25px;
+    margin: 25px 0 15px 0;
+
+}
+.user-opinions h4{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+.users-info{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.users-info img{
+    border-radius: 50%;
+}
+.users-name-date .name{
+    font-size: 16px;
+    color: #757575;
+}
+.users-name-date .revw-date{
+    font-size: 16px;
+    color: #B3B3B3;
+}
 
