@@ -85,3 +85,38 @@ main{
 .action-image img{
     border-radius: 48px;
 }
+
+/* Productive Users Designs Starts from here */
+
+.productive-user-container{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 140px;
+}
+.productive-user-headline{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 40px;
+}
+.productive-user-summary{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.productive-user-summary h2{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+.productive-user-summary h5{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
