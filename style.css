@@ -17,7 +17,7 @@
     border-radius: 8px;
     background-color: #4E47FF;
     cursor: pointer;
-    transition: 0.7s;
+    transition: 0.4s;
 }
 .btn-style:hover{
     
@@ -231,7 +231,7 @@ main{
     border-radius: 8px !important;
     background-color: #4E47FF !important;
     cursor: pointer !important;
-    transition: 0.7s;
+    transition: 0.4s;
 }
 .form-submit:hover{
     color: #4E47FF !important;
@@ -240,19 +240,41 @@ main{
     font-weight: 700 !important;
 }
 /* footer styles starts from here */
-footer{
+ffooter{
     font-family: "Inter", sans-serif;
     background-color: #f5f4f4;
+    padding: 110px 0;
 }
 .footer-container{
     display: flex;
     flex-direction: column;
-    max-width: 38%;
+    max-width: 630px;
     margin: auto;
 }
 .footer-container h2{
     font-size: 100px;
     font-weight: 700;
     color: #4E47FF;
-    
+    text-align: center;
+}
+.footer-container p{
+    margin-top: 10px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: #8987A1;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+}
+.footer-container ul{
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-container ul li{
+    list-style-type: none;
+}
+.footer-container ul li a {
+    text-decoration: none;
+    color: #8987A1;
 }
