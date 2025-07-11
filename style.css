@@ -239,3 +239,20 @@ main{
     background-color: rgba(255, 255, 255, 0) !important;
     font-weight: 700 !important;
 }
+/* footer styles starts from here */
+footer{
+    font-family: "Inter", sans-serif;
+    background-color: #f5f4f4;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 38%;
+    margin: auto;
+}
+.footer-container h2{
+    font-size: 100px;
+    font-weight: 700;
+    color: #4E47FF;
+    
+}
