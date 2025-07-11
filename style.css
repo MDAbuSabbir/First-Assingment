@@ -17,7 +17,7 @@
     border-radius: 8px;
     background-color: #4E47FF;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.7s;
 }
 .btn-style:hover{
     
@@ -231,7 +231,7 @@ main{
     border-radius: 8px !important;
     background-color: #4E47FF !important;
     cursor: pointer !important;
-    transition: 0.4s;
+    transition: 0.7s;
 }
 .form-submit:hover{
     color: #4E47FF !important;
@@ -240,7 +240,7 @@ main{
     font-weight: 700 !important;
 }
 /* footer styles starts from here */
-ffooter{
+footer{
     font-family: "Inter", sans-serif;
     background-color: #f5f4f4;
     padding: 110px 0;
